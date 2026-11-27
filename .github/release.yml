@@ -3,18 +3,21 @@
 changelog:
   exclude:
     labels:
-      - ignore-for-release
-    authors:
-      - hizclick
+      - skip-release-notes
   categories:
     - title: Breaking Changes 🛠
       labels:
-        - Semver-Major
+        - semver-major
         - breaking-change
-    - title: Exciting New Features 🎉
+    - title: Enhancements 🎉
       labels:
-        - Semver-Minor
         - enhancement
+    - title: Bug Fixes 🐛
+      labels:
+        - bugfix
+    - title: Maintenance 🔧
+      labels:
+        - maintenance
     - title: Other Changes
       labels:
         - "*"
